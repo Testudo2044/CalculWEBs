@@ -1,3 +1,5 @@
-export type TenKeyTypes = {
+export type TenkeyTypes = {
   keyNumber: string;
+  bgColor: string;
+  textPx: string;
 }

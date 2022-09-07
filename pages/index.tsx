@@ -1,17 +1,18 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { TenKey } from "../components/buttons/TenKey";
+import { LiteralTenkeys } from "../components/calculatorkeys/LiteralTenkeys"
+import { TestCalculator } from '../components/templates/TestCalculator'
+
 
 const Home: NextPage = () => {
   return (
     <>
-      <div className="text-center text-4xl">
-        <a href="/">html</a>
+      <div className="m-32">
+        <TestCalculator />
       </div>
-      <TenKey keyNumber="1" />
     </>
-  )
+  );
 }
 
 export default Home
