@@ -1,4 +1,4 @@
-import { TenkeyBlock } from "../buttons/Tenkeyblock"
+import { TenkeyBlock } from "../buttons/TenkeyBlock"
 
 
 export const LiteralTenkeys: React.FC<{test: string;}> = () => {
